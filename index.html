@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Conversion</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <h1>Time Conversion</h1>
+    <div class="container">
+      <p>
+        Insert a 12 hours AM/PM format and convert it to military time (24 hours
+        format).
+      </p>
+      <input
+        class="textbox"
+        id="input"
+        placeholder="hh:mm:ssAM or hh:mm:ssPM"
+        type="text"
+        value=""
+      />
+      <button class="btn" onclick="printConversion()">
+        Send
+      </button>
+    </div>
+
+    <div id="answer"></div>
+  </body>
+</html>
